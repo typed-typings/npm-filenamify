@@ -1,0 +1,34 @@
+{
+  "name": "@types/filenamify",
+  "version": "1.2.0",
+  "description": "Types for https://github.com/sindresorhus/filenamify",
+  "typings": "index.d.ts",
+  "scripts": {
+    "lint": "tslint index.d.ts",
+    "bundle": "typings bundle -o bundle.d.ts",
+    "exec": "ts-node test.ts",
+    "test": "npm run lint && npm run bundle && npm run exec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/types/npm-filenamify.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/types/npm-filenamify/issues"
+  },
+  "homepage": "https://github.com/types/npm-filenamify#readme",
+  "devDependencies": {
+    "filenamify": "^1.2.1",
+    "ts-node": "^1.3.0",
+    "tslint": "^3.15.1",
+    "tslint-config-typings": "^0.2.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
